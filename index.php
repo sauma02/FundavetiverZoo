@@ -48,7 +48,7 @@ $lista_servicios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
     <body id="page-top">
         <!-- Navigation-->
         <
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" style="width: 100%;">
             <div class="container" style="flex: auto; flex-direction: column; padding: 1px; position: relative;">
                <img  height="80" width="80" src="assets/imgFunzoo/config/<?php echo $lista_config[1]['imagen']?>" class="rounded-top "   alt=""> <a class="navbar-brand" href="#page-top"><?php echo $lista_config[1]['descripcion']?></a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,8 +72,8 @@ $lista_servicios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <div class="imgmasthead" style="display: flex; flex-directions: row;">
-                <img  src="assets/imgFunzoo/config/<?php echo $lista_config[2]['imagen']?>" alt="..." />
+                <div class="container d-flex align-items-center flex-column" style="display: flex; flex-direction: row;">
+                <img style="border-radius: 1rem;" src="assets/imgFunzoo/config/<?php echo $lista_config[2]['imagen']?>" alt="..." />
                 </div>
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0"><?php echo $lista_config[3]['descripcion']?></h1>
@@ -267,7 +267,7 @@ $lista_servicios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                        
                     </div>
                     <div class="map-responsive" style= "display: flex; flex-direction: row; justify-content: flex-end; align-items: flex-start;">                    
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.937394291441!2d-74.8921319251424!3d5.576274333445736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e412b2d8cbd09bb%3A0x282059c54c21537a!2sNorcasia!5e0!3m2!1ses-419!2sco!4v1692606213933!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d508014.2686519215!2d-75.5508285!3d5.8750872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e412950c5815cd9%3A0x81fa0b417e157516!2sFundavetiverzoo!5e0!3m2!1ses!2sco!4v1696463171978!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4"></h4>
                         <p class="lead mb-0">

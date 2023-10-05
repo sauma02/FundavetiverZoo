@@ -1,7 +1,7 @@
 <?php 
 // se establece la url base, para referenciar la pagina
 session_start();
-$url_base = "http://localhost/FunZoo/admin/";
+$url_base = "http://localhost/Fundavetiver_Zoo/admin/";
 if(!isset($_SESSION['usuario'])){
   header("Location:".$url_base."login.php");
 }
